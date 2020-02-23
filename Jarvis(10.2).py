@@ -11,17 +11,14 @@
 
 print("""
 
-    --------------------------------------------------------------------------       
-    |           __    ______    ______   __           __  _      _____       |     
-    |          |  |  |  __  |  |  __  \  \ \         / / | |    / ____]      |    
-    |          |  |  | |__| |  | |  | |   \ \       / /  | |   / /           |     
-    |          |  |  |  __  |  | '--'_/    \ \     / /   | |   \ \____       |         
-    |    __    |  |  | |  | |  |  _  \      \ \   / /    | |    \___  \      |     
-    |    \ |___|  |  | |  | |  | | \  \      \ \_/ /     | |    ____}  |     |    
-    |     \_______/  |_|  |_|  |_|  \__\      \___/      |_|    \_____/      |         
-    |                                                                        |      
-    --------------------------------------------------------------------------     
-
+  
+██╗██████╗ ██╗███████╗
+██║██╔══██╗██║██╔════╝
+██║██████╔╝██║███████╗
+██║██╔══██╗██║╚════██║
+██║██║  ██║██║███████║
+╚═╝╚═╝  ╚═╝╚═╝╚══════╝
+                      
 """)
 
 from difflib import SequenceMatcher
@@ -49,7 +46,7 @@ Slang_Words = ["um","uh","hm","eh"]
 # Put all greetings in here
 Static_Greetings = ["Hey","Hi","Hello"]
 # Put your AIs Name and other names just in case.
-Name = ["jarvis"]
+Name = ["IRIS"]
 posible_answer_key_words = ["becuase","yes","no"]
 Chance_that_question_was_asked_1 = 0
 Chance_that_question_was_asked_2 = 0
@@ -72,11 +69,11 @@ what_i_am_thinking = ("")
 
 # Things jarvis needs to talk to people and be literate.
 
-User_First_Name = ("Sergei")
+User_First_Name = ("Joseph")
 
-User_Last_Name = ("Glimis")
+User_Last_Name = ("Kalter")
 
-User_Age = [15]
+User_Age = [13]
 
 # An age when you are like a senior or an old man or somthing, not a silly little kid. lol
 Old_Age = [39]
@@ -90,8 +87,6 @@ Informal_Addresses_Female = ["gal","girl",User_First_Name]
 Formal_Adress_Male = ["Sir", User_First_Name, "Mr. " + User_Last_Name]
 
 Formal_adress_Female = ["Mam","Madam", User_First_Name, "Mrs. " + User_Last_Name]
-
-Curses = ["fuck","shit","dammit","crap"]
 
 Informal_Greetings = ["hey","hi"]
 
